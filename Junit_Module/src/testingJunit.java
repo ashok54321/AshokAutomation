@@ -1,14 +1,20 @@
 import org.junit.After;
 import org.junit.AfterClass;
+import org.junit.Assume;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class testingJunit {
 
+	
+	public static boolean dbConnection() {
+		return true;
+	}
 	@BeforeClass
 	public static void SeleniumSetup() {
 		System.out.println("setting up selenium server");
+		Assume.assumeTrue(dbConnection());
 	}
 	@Before
 	public void testOpenBrowser() {
