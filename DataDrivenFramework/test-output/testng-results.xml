@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-05-08T12:36:40Z" name="Data Driver Basics" finished-at="2019-05-08T12:36:43Z" duration-ms="3293">
+  <suite started-at="2019-05-09T11:59:00Z" name="Data Driver Basics" finished-at="2019-05-09T11:59:03Z" duration-ms="3256">
     <groups>
     </groups>
-    <test started-at="2019-05-08T12:36:40Z" name="LoginTest" finished-at="2019-05-08T12:36:43Z" duration-ms="3293">
+    <test started-at="2019-05-09T11:59:00Z" name="LoginTest" finished-at="2019-05-09T11:59:03Z" duration-ms="3256">
       <class name="com.tb.testcases.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tb.testcases.LoginTest@a38c7fe]" started-at="2019-05-08T12:36:32Z" name="setUp" finished-at="2019-05-08T12:36:40Z" duration-ms="8169" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tb.testcases.LoginTest@a38c7fe]" started-at="2019-05-09T11:58:50Z" name="setUp" finished-at="2019-05-09T11:59:00Z" duration-ms="9643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginAsBankManager()[pri:0, instance:com.tb.testcases.LoginTest@a38c7fe]" started-at="2019-05-08T12:36:40Z" name="loginAsBankManager" finished-at="2019-05-08T12:36:43Z" duration-ms="3257" status="PASS">
+        <test-method signature="loginAsBankManager()[pri:0, instance:com.tb.testcases.LoginTest@a38c7fe]" started-at="2019-05-09T11:59:00Z" name="loginAsBankManager" finished-at="2019-05-09T11:59:03Z" duration-ms="3225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginAsBankManager -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tb.testcases.LoginTest@a38c7fe]" started-at="2019-05-08T12:36:43Z" name="tearDown" finished-at="2019-05-08T12:36:44Z" duration-ms="938" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tb.testcases.LoginTest@a38c7fe]" started-at="2019-05-09T11:59:03Z" name="tearDown" finished-at="2019-05-09T11:59:04Z" duration-ms="844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

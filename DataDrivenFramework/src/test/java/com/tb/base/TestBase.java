@@ -5,7 +5,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -26,10 +25,16 @@ public class TestBase {
 	 * 		- Mail
 	 * */
 	
+	
+	
 	public static WebDriver driver;
 	public static Properties config = new Properties();
 	public static Properties OR = new Properties();
 	public static FileInputStream fis;
+	//public static Logger log = Logger.get
+	
+	
+	
 	
 	@BeforeSuite
 	public void setUp() {
@@ -44,6 +49,7 @@ public class TestBase {
 			}
 			try {
 				config.load(fis);
+
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
